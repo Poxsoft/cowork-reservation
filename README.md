@@ -4,7 +4,7 @@ Plataforma para gestionar reservas en espacios de coworking.
 ## Instalación
 
 1. **Clonar el repositorio:**
-   git clone https://github.com/tu_usuario/cowork-reservations.git
+   git clone https://github.com/Poxsoft/cowork-reservation.git
    cd cowork-reservations
 
 2. **Instalar dependencias:**
