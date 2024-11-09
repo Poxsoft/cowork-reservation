@@ -21,12 +21,6 @@
             </a>
             <!-- Menú Desplegable -->
             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                <!-- Opciones del Usuario -->
-                <a class="dropdown-item" href="{{ route('profile.show') }}">
-                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                    Perfil
-                </a>
-                <div class="dropdown-divider"></div>
                 <!-- Cerrar Sesión -->
                 <form method="POST" action="{{ route('logout') }}">
                     @csrf
